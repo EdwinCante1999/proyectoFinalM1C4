@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class App {
-    static String estudianteActualNombre = "N/A"; // Renombrado para mayor claridad
+    static String estudianteActualNombre ; // Renombrado para mayor claridad
     static double nota1 = 0.0;
     static double nota2 = 0.0;
     static double nota3 = 0.0;
