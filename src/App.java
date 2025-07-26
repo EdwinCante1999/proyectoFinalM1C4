@@ -24,12 +24,14 @@ public class App {
                     Mostrardatosestudianteactual();
                     break;
                 case 3:
+                    promnotasestudiante();
+
 
                     if (validarNombre(estudianteActualNombre)) { // Asegúrate de manejar el caso si no hay estudiante
                                                                  // registrado
                         System.out.println("No hay un estudiante registrado para calcular el promedio.");
                     } else {
-                        double promedio = promedionotasestudianteactual();
+                        double promedio = promnotasestudiante();
                         System.out.printf("El promedio del estudiante %s es: %.2f%n", estudianteActualNombre, promedio);
                     }
 
@@ -108,7 +110,7 @@ public class App {
         }
     }
 
-    public static double promedionotasestudianteactual() { // Cambiar 'void' por 'double' y quitar 'Scanner input'
+    public static double promnotasestudiante() { // Cambiar 'void' por 'double' y quitar 'Scanner input'
 
         return (nota1 + nota2 + nota3) / 3.0; // Calcula y retorna el promedio
     }
