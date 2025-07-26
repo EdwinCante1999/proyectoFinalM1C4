@@ -8,9 +8,9 @@ public class App {
 
     public static void main(String[] args) {
 
-        var input = new Scanner(System.in);
+        var input = new Scanner(System.in); // Se crea el objeto scanner para leer la entrada del usuario
 
-        do {
+        do {   // Bucle infinito que muestra el menu, y se rompe hasta que el usuario decida salir (0.salir)
             mostrarMenu(); // Muestra el menú en cada iteración
 
             int opcion = input.nextInt(); // Lee la opción ingresada por el usuario
