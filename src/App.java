@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class App {
-    static String estudianteActualNombre ; // fefinicion de variables estaticas
+    static String estudianteActualNombre ; // Definicion de variables estaticas
     static double nota1 = 0.0;
     static double nota2 = 0.0;
     static double nota3 = 0.0;
